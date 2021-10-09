@@ -1,4 +1,5 @@
 $(function () {
+  
   // ########## Agregar clase a Menú ##########
   $('body.conferencia .navegacion-principal a:contains("Conferencia")').addClass("activo");
   $('body.calendario .navegacion-principal a:contains("Calendario")').addClass("activo");
