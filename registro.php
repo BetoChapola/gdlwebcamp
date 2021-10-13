@@ -35,7 +35,8 @@
                             </ul>
                             <div class="orden">
                                 <label for="pase_dia">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_dia" size="3" placeholder="0" name="boletos[]">
+                                <input type="number" min="0" id="pase_dia" size="3" name="boletos[un_dia][cantidad]" placeholder="0" name="boletos[]">
+                                <input type="hidden" value="30" name="boletos[un_dia][precio]">
                             </div>
                         </div>
                     </li>
@@ -51,7 +52,8 @@
                             </ul>
                             <div class="orden">
                                 <label for="pase_completo">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_completo" size="3" placeholder="0" name="boletos[]">
+                                <input type="number" min="0" id="pase_completo" size="3" name="boletos[pase_completo][cantidad]" placeholder="0" name="boletos[]">
+                                <input type="hidden" value="50" name="boletos[pase_completo][precio]">
                             </div>
                         </div>
                     </li>
@@ -68,7 +70,8 @@
                             </ul>
                             <div class="orden">
                                 <label for="pase_dos_dias">Boletos deseados:</label>
-                                <input type="number" min="0" id="pase_dos_dias" size="3" placeholder="0" name="boletos[]">
+                                <input type="number" min="0" id="pase_dos_dias" size="3" name="boletos[dos_dias][cantidad]" placeholder="0" name="boletos[]">
+                                <input type="hidden" value="45" name="boletos[dos_dias][precio]">
                             </div>
                         </div>
                     </li>
@@ -192,13 +195,15 @@
                     <div class="extras">
                         <div class="orden">
                             <label for="camisa_evento">Camisa del evento $10 <small>(promocion 7% dto.)</small></label>
-                            <input type="number" min="0" id="camisa_evento" name="pedido_camisas" size="3" placeholder="0">
+                            <input type="number" min="0" id="camisa_evento" name="pedido_extra[camisas][cantidad]" size="3" placeholder="0">
+                            <input type="hidden" value="10" name="pedido_extra[camisas][precio]">
                         </div>
                         <!--.orden-->
                         <div class="orden">
                             <label for="etiquetas">Paquete de 10 etiquetas $2 <small>(HTML5, CSS3, JavaScript,
                                     Chrome)</small></label>
-                            <input type="number" min="0" id="etiquetas" name="pedido_etiquetas" size="3" placeholder="0">
+                            <input type="number" min="0" id="etiquetas" name="pedido_extra[etiquetas][cantidad]" size="3" placeholder="0">
+                            <input type="hidden" value="2" name="pedido_extra[etiquetas][precio]">
                         </div>
                         <!--.orden-->
                         <div class="orden">

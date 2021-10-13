@@ -1023,10 +1023,12 @@ div.cboxElement{
     padding: 30px!important;
     text-align: center;
 }
-/*
+
+/* Resultado del pago de PayPal */
+
 .resultado {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 1rem;
     color: white;
     max-width: 400px;
@@ -1038,7 +1040,7 @@ div.cboxElement{
 }
 .error{
     background-color: red;
-} */
+}
 
 
 
