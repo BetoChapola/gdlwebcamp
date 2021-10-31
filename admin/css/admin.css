@@ -1,0 +1,54 @@
+/* * barra de navegacion */
+.skin-blue .sidebar-menu > li.header{
+    color: white;
+    background: #3c8dbc;
+}
+    
+
+.login-page{
+    overflow-y: hidden;
+}
+
+.login-page .main-footer{
+    display: none;
+}
+
+/*Necesito hacer unos mediaquerys para arreglar el problema de los cambios del color de los botones cuando se hace mas chica la pantalla*/
+
+.contenido-dia{
+    display: none;
+}
+.tabla-precio ul,
+ul.lista-precios{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.nombre-dia{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fe4918;
+}
+
+ul.lista-precios .numero{
+    font-size: 30px;
+}
+
+.tabla-precio h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe4918;
+}
+
+
+.contenido-dia label{
+    font-weight: normal;
+}
+
+.contenido-dia time{
+color: #fe4918;
+font-weight: bold;
+}
