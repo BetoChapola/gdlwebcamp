@@ -31,7 +31,7 @@ $(document).ready(function () {
     $.ajax({
       type: $(this).attr('method'), //definidmos el tipo del request (post)
       data: datos, // nombramos los datos que enviaremos
-      url: $(this).attr('action'), // la dirección a dónde vamos a enviar los datos (modelo-admin.php.)
+      url: $(this).attr('action'), // la dirección a dónde vamos a enviar los datos (modelo-admin.php, modelo-evento.php etc...)
       dataType: 'json', //usaremos json como portador de datos
       success: function (data) {
         // Aquí recibímos la respuesta del archivo que esta en la "url: $(this).attr('action')", en este caso es modelo-admin.php.
